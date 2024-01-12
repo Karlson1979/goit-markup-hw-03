@@ -1,1 +1,59 @@
 @import 'modern-normalize/modern-normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+*,body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 25.5px 156px 25.5px 156px;
+
+}
+
+ul,li,address,nav{
+    display: inline-block;
+    
+}
+nav li{
+margin: 40px;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+nav ul{
+    margin-left: 76px;
+}
+address ul{
+    margin-left: 332px;
+}
+address li{
+    margin-left: 40px;
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}
+.logo span {
+    color: #4D5AE5;
+
+}
+.logo{
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 21px; 
+color: #2E2F42;
+}
+a{
+    color: #2E2F42;
+}

@@ -57,3 +57,79 @@ color: #2E2F42;
 a{
     color: #2E2F42;
 }
+.section-main{
+    background:#2E2F42;
+    padding: 188px 472px 292px 472px;
+    text-align: center;
+}
+h1{
+   
+    color: #fff;
+    font-size: 56px;
+font-weight: 700;
+line-height: 60px; 
+letter-spacing: 1.12px;
+}
+button{
+    margin-top: 48px;
+    padding: 16px 32px;
+    background: #4D5AE5;
+    color:#fff ;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.64px;
+cursor: pointer;
+
+}
+.content{
+    display: inline-block;
+    padding:120px 156px;
+   
+}
+.content li{
+    width: 264px;
+    margin: 24px;
+}
+
+.content h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.4px;
+}
+.content p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
+margin-top: 8px;
+}
+
+
+
+
+
+.Our-time{
+    text-align: center;
+    background: #F4F4FD;
+    padding: 120px 156px;
+}
+.Our-time li{
+    margin: 24px;
+    margin-top: 72px;
+}
+.Our-time h3{
+margin-top:32px ;  
+font-size: 20px;
+font-weight: 500;
+
+}
+.Our-time p{
+margin-top: 8px;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.32px;
+}

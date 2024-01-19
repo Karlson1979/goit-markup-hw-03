@@ -10,7 +10,8 @@
      outline: none;
      list-style-type: none;
      font-family: 'Roboto', sans-serif;
-     color: #2E2F42;
+     color: #434455;
+     background-color: #FFFFFF;
      
 
  }
@@ -50,33 +51,43 @@
  }
 
  .logo span {
-     color: #4D5AE5;
+     color: #2e2f42;
 
  }
 
  .logo {
-     font-family: Raleway;
+     font-family: "Raleway", sans-serif;
      font-size: 18px;
      font-weight: 700;
      line-height: 21px;
      color: #2E2F42;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color:#4d5ae5 
  }
 
- header a {
+ /* header a {
      color: #2E2F42;
- }
- header a:hover{
-    color: #404BBF;
-    
-
-    }
- 
+ } */
  
     
 
- .link-studio:active{
-    text-decoration: underline dashed #404BBF
+ .link-header:hover{
+    color: #404BBF
    
+ }
+ address{
+    font-style: normal; 
+ }
+ .address-mail{
+    color: #434455;
+ }
+ .address-mail:hover{
+    color: #404bbf ;
+ }
+ .address-mail:focus{
+    color: #404bbf ;
  }
 
  .section-main {
@@ -85,16 +96,18 @@
      text-align: center;
  }
 
- h1 {
+ .title-main {
 
      color: #fff;
      font-size: 56px;
      font-weight: 700;
      line-height: 60px;
      letter-spacing: 1.12px;
+     line-height: 1.07;
+     background-color: #2E2F42;
  }
 
- button {
+ .button-main {
      margin-top: 48px;
      padding: 16px 32px;
      background-color: #4D5AE5;
@@ -104,12 +117,19 @@
      line-height: 24px;
      letter-spacing: 0.64px;
      cursor: pointer;
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.04em; 
 
  }
  button:hover{
     background-color: #404BBF;
  }
 
+button:focus{
+    background-color: #404BBF;
+ }
  .content {
      display: inline-block;
      padding: 120px 156px;
@@ -121,7 +141,7 @@
      margin: 24px;
  }
 
- .content h3 {
+ .title-content {
      font-size: 20px;
      font-weight: 500;
      line-height: 24px;
@@ -130,8 +150,8 @@
 
  .content p {
      
-     
-     line-height: 24px;
+     color:#434455;
+     line-height: 1.5;
      letter-spacing: 0.32px;
      margin-top: 8px;
  }

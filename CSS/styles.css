@@ -50,7 +50,7 @@
      letter-spacing: 0.32px;
  }
 
- .logo span {
+ span {
      color: #2e2f42;
 
  }
@@ -158,12 +158,23 @@ button:focus{
 
 
 
-
+.list{
+    background-color: #F4F4FD;
+}
 
  .Our-time {
      text-align: center;
      background-color: #F4F4FD;
      padding: 120px 156px;
+     
+ }
+ .title-time{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    background-color: #F4F4FD;
+
  }
 
  .Our-time li {
@@ -171,15 +182,21 @@ button:focus{
      margin-top: 72px;
  }
 
- .Our-time h3 {
+ .title-content {
      margin-top: 32px;
      font-size: 20px;
      font-weight: 500;
+     line-height: 1.2;
+     letter-spacing: 0.02em
+    
 
  }
 
  .Our-time p {
      margin-top: 8px;
+     font-size: 16px;
+     color:#434455;
+     
      
    
      line-height: 24px;
@@ -191,14 +208,28 @@ button:focus{
      padding: 100px 1200px 100px 156px;
 
  }
-
- #studio {
-     color: #F4F4FD;
+ .logo-footer{
+    font-family: "Raleway", sans-serif;
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 21px;
+     color: #2E2F42;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color:#4d5ae5; 
+     background-color: #2E2F42;
  }
 
- footer p {
+ .studio{
+    color: #f4f4fd;
+    background-color: #2E2F42;
+ }
+
+ .content-footer {
      margin-top: 17.5px;
      color: #F4F4FD;
+     background-color: #2E2F42;
      
    
      line-height: 24px;

@@ -156,12 +156,13 @@ button:focus{
      color:  #2e2f42;
  }
 
- .content p {
+ .job {
      
      color:#434455;
      line-height: 1.5;
      letter-spacing: 0.32px;
      margin-top: 8px;
+     font-size: 16px;
  }
 
 

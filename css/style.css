@@ -41,15 +41,15 @@ nav li {
 }
 
 nav ul {
-    margin-left: 76px;
+    /* margin-left: 76px; */
 }
 
 address ul {
-    margin-left: 332px;
+    /* margin-left: 332px; */
 }
 
 address li {
-    margin-left: 40px;
+    /* margin-left: 40px; */
     line-height: 24px;
     letter-spacing: 0.32px;
 }

@@ -120,7 +120,7 @@ address {
 }
 
 .button-main {
-    margin-top: 48px;
+    /* margin-top: 48px; */
     /* padding: 16px 32px; */
     background-color: #4D5AE5;
     color: #fff;
@@ -173,7 +173,7 @@ button:focus {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
     font-size: 16px;
 }
 
@@ -202,11 +202,11 @@ button:focus {
 
 .Our-time li {
     margin: 24px;
-    margin-top: 72px;
+    /* margin-top: 72px; */
 }
 
 .title-content {
-    margin-top: 32px;
+    /* margin-top: 32px; */
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -214,7 +214,7 @@ button:focus {
 }
 
 .Our-time p {
-    margin-top: 8px;
+    /* margin-top: 8px; */
     font-size: 16px;
     color: #434455;
 

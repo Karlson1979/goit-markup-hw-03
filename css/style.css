@@ -1,5 +1,6 @@
-
- body
+*,
+ body,
+ html
   {
      margin: 0;
      padding: 0;
@@ -155,6 +156,10 @@ button:focus{
      letter-spacing: 0.4px;
      color:  #2e2f42;
  }
+ .target-txt{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+ }
 
  .job {
      
@@ -211,6 +216,9 @@ button:focus{
    
      line-height: 24px;
      letter-spacing: 0.32px;
+ }
+ .list-time{
+    background-color: #FFFFFF;
  }
 
  footer {

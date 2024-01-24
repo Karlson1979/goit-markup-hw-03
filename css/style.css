@@ -36,7 +36,7 @@ nav {
 nav li {
     /* margin: 40px; */
     font-weight: 500;
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.32px;
 }
 
@@ -50,7 +50,7 @@ address ul {
 
 address li {
     /* margin-left: 40px; */
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.32px;
 }
 
@@ -63,9 +63,9 @@ span {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    /* line-height: 21px; */
     color: #2E2F42;
-    line-height: 1.17;
+    /* line-height: 1.17; */
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5
@@ -112,9 +112,9 @@ address {
     color: #fff;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    /* line-height: 60px; */
     letter-spacing: 1.12px;
-    line-height: 1.07;
+    /* line-height: 1.07; */
     background-color: #2E2F42;
 
 }
@@ -126,12 +126,12 @@ address {
     color: #fff;
     font-family: Roboto;
     font-weight: 500;
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.64px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    line-height: 1.5;
+    /* line-height: 1.5; */
     letter-spacing: 0.04em;
 
 }
@@ -158,20 +158,20 @@ button:focus {
 .title-content {
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.4px;
     color: #2e2f42;
 }
 
 .target-txt {
-    line-height: 1.5;
+    /* line-height: 1.5; */
     letter-spacing: 0.02em;
 }
 
 .job {
 
     color: #434455;
-    line-height: 1.5;
+    /* line-height: 1.5; */
     letter-spacing: 0.32px;
     /* margin-top: 8px; */
     font-size: 16px;
@@ -192,7 +192,7 @@ button:focus {
 
 .title-time {
     font-size: 36px;
-    line-height: 1.11;
+    /* line-height: 1.11; */
     letter-spacing: 0.02em;
     text-transform: capitalize;
     background-color: #F4F4FD;
@@ -209,7 +209,7 @@ button:focus {
     /* margin-top: 32px; */
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    /* line-height: 1.2; */
     letter-spacing: 0.02em
 }
 
@@ -220,7 +220,7 @@ button:focus {
 
 
 
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.32px;
 }
 
@@ -235,7 +235,7 @@ button:focus {
     font-size: 36px;
 
     font-weight: 700;
-    line-height: 40px;
+    /* line-height: 40px; */
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -247,7 +247,7 @@ button:focus {
     font-size: 20px;
 
     font-weight: 500;
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.4px;
 }
 
@@ -257,7 +257,7 @@ button:focus {
     font-size: 16px;
 
     font-weight: 400;
-    line-height: 1.5;
+    /* line-height: 1.5; */
     letter-spacing: 0.02em;
 }
 
@@ -271,7 +271,7 @@ footer {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    /* line-height: 21px; */
     color: #2E2F42;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -291,7 +291,7 @@ footer {
     background-color: #2E2F42;
 
 
-    line-height: 24px;
+    /* line-height: 24px; */
     letter-spacing: 0.32px;
 
 }

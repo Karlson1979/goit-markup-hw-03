@@ -104,7 +104,7 @@ address {
 .section-main {
     background-color: #2E2F42;
     /* padding: 188px 472px 292px 472px; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 .title-main {
@@ -184,7 +184,7 @@ button:focus {
 }
 
 .our-time {
-    text-align: center;
+    /* text-align: center; */
     background-color: #F4F4FD;
     /* padding: 120px 156px; */
 

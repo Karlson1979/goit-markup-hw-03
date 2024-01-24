@@ -36,6 +36,7 @@ nav {
 nav li {
     /* margin: 40px; */
     font-weight: 500;
+    line-height: 1.5;
     /* line-height: 24px; */
     letter-spacing: 0.32px;
 }
@@ -50,6 +51,7 @@ address ul {
 
 address li {
     /* margin-left: 40px; */
+    line-height: 1.5;
     /* line-height: 24px; */
     letter-spacing: 0.32px;
 }
@@ -233,7 +235,7 @@ button:focus {
     text-align: center;
 
     font-size: 36px;
-
+    line-height: 1.2;
     font-weight: 700;
     /* line-height: 40px; */
     letter-spacing: 0.72px;

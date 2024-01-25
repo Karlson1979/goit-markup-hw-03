@@ -1,17 +1,19 @@
-*,
-body,
-html {
-    text-decoration: none;
-    list-style: none;
-    border: none;
-    outline: none;
-    list-style-type: none;
+
+body
+ {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-
-
+    
 }
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+
 
 
 

@@ -173,13 +173,7 @@ button:focus {
     clip: rect(0, 0, 0, 0) !important;
     border: 0 !important;
 }
-.title-content {
-    font-size: 20px;
-    font-weight: 500;
-    
-    letter-spacing: 0.4px;
-    color: #2e2f42;
-}
+
 .list-content{
     display: flex;
     gap: 24px; 
@@ -192,7 +186,9 @@ button:focus {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    letter-spacing: 0.4px;
+    color: #2e2f42;
 }
 .target-txt {
     line-height: 1.5;
@@ -207,7 +203,7 @@ button:focus {
 
 }
 
-.title-time {
+.title-time1 {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -215,6 +211,7 @@ button:focus {
     background-color: #F4F4FD;
     color: #2e2f42;
     margin-bottom: 72px; 
+    
 
 }
 .list {
@@ -232,7 +229,7 @@ button:focus {
     padding: 32px 0;
 
 }
-.title-content{
+.title-time{
     text-align: center; 
     margin-bottom: 8px;
 }

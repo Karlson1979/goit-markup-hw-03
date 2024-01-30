@@ -26,6 +26,7 @@ ul{
 /* HEADER */
 .header{
     padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
 .container{
     display: flex;
@@ -158,8 +159,20 @@ button:focus {
 
 
 
-
-
+/* content */
+.content{
+    padding: 120px 0;
+}
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    border: 0 !important;
+}
 .title-content {
     font-size: 20px;
     font-weight: 500;
@@ -167,31 +180,30 @@ button:focus {
     letter-spacing: 0.4px;
     color: #2e2f42;
 }
-
+.list-content{
+    display: flex;
+    gap: 24px; 
+}
+.item-content{
+    width: calc((100% - 72px) / 4);
+}
+.title-content {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em
+}
 .target-txt {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-.job {
-
-    color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    
-    font-size: 16px;
-}
-
-
-
-.list {
-    background-color: #F4F4FD;
-}
+/* our-time */
 
 .our-time {
     text-align: center;
     background-color: #F4F4FD;
-    
+    padding: 120px 0;
 
 }
 
@@ -202,32 +214,47 @@ button:focus {
     text-transform: capitalize;
     background-color: #F4F4FD;
     color: #2e2f42;
+    margin-bottom: 72px; 
 
+}
+.list {
+    background-color: #F4F4FD;
+    display: flex;
+    gap: 24px;
+}
+
+.list-time {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0px 0px 4px 4px; 
+}
+.person{
+    padding: 32px 0;
+
+}
+.title-content{
+    text-align: center; 
+    margin-bottom: 8px;
+}
+.job {
+
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-align: center; 
+    font-size: 16px;
 }
 
 
-.title-content {
-    
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em
-}
 
 .Our-time p {
     
     font-size: 16px;
     color: #434455;
-
-
-
-   
     letter-spacing: 0.32px;
 }
 
-.list-time {
-    background-color: #FFFFFF;
-}
+
 
 .title-portfolio {
     color: #2E2F42;

@@ -29,10 +29,13 @@ ul{
     border-bottom: 1px solid #e7e9fc;
 }
 .container{
-    display: flex;
     width: 1158px; 
     margin: 0 auto;
     padding: 0 15px;
+    
+}
+.container-header{
+    display: flex;
     justify-content: space-between;
 }
 .nav-header{
@@ -279,7 +282,7 @@ button:focus {
     column-gap: 24px;
     row-gap: 48px; 
 }
-.item-portf{
+.item-add{
     width: calc((100% - 48px) / 3);
 }
 .addition{
@@ -341,4 +344,9 @@ button:focus {
     
     letter-spacing: 0.32px;
 
+}
+footer{
+    .container{
+        flex: none;
+    }
 }

@@ -27,14 +27,16 @@ ul{
 .header{
     padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
+   
 }
 .container{
     width: 1158px; 
     margin: 0 auto;
     padding: 0 15px;
     
+    
 }
-.container-header{
+ .container.container-header{
     display: flex;
     justify-content: space-between;
 }
@@ -112,9 +114,14 @@ address {
 }
 /* main  */
 /* benefits */
+
 .benefits {
     background-color: #2E2F42;
     padding: 188px 0;
+    text-align: center;
+    
+}
+.container.container-benefits{
     text-align: center;
 }
 
@@ -144,7 +151,6 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    
     border: none;
     border-radius: 4px;
     height: 56px;
@@ -344,9 +350,4 @@ button:focus {
     
     letter-spacing: 0.32px;
 
-}
-footer{
-    .container{
-        flex: none;
-    }
 }

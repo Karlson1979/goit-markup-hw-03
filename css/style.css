@@ -189,7 +189,7 @@ button:focus {
     display: flex;
     gap: 24px; 
 }
-.item-content{
+.content-item{
     width: calc((100% - 72px) / 4);
 }
 .title-content {

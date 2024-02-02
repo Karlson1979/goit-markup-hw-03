@@ -124,7 +124,6 @@ address {
 .container.container-benefits{
     text-align: center;
 }
-
 .title-main {
 
     color: #fff;
@@ -133,8 +132,8 @@ address {
     max-width: 496px; 
     letter-spacing: 1.12px;
     line-height: 1.07;
-    background-color: #2E2F42;
-    
+    background-color: #2E2F42; 
+    margin: 0 auto;
 }
 
 .button-main {
@@ -154,7 +153,7 @@ address {
     border: none;
     border-radius: 4px;
     height: 56px;
- 
+    margin: 0 auto;
 
 }
 
